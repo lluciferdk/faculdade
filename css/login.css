@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.grupo {
+
+    margin-top: 10px;
+
+
+}
+
+.caixa-login {
+    width: 250px;
+    height: auto;
+    border: 3px solid var(--cor-primaria);
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 13px;
+}
+
+
+input, 
+#btn-entrar {
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid var(--cor-primaria);
+    outline: none;
+
+}
+
+#btn-entrar {
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: black;
+    font-weight: 600px;
+}
+
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+    
+
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: oblique;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    
+}
+
+.esqueci-minha-senha a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+}

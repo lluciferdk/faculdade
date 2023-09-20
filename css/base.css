@@ -1,0 +1,25 @@
+:root {
+    --cor-primaria: #00d9ff;
+    --cor-secundaria: #00a2ff;
+}
+
+/* CSS RESET */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Quicksand', sans-serif;
+}
+
+table.table {
+    box-shadow: 0 0 10px 0 rgb(50 50 50 /82%);
+}
+
+table.table>thead>tr th {
+    background-color: #55c7fc;
+}
+
+button.btn{
+    min-width: 80x;
+}
