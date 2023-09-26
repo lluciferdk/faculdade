@@ -72,7 +72,8 @@
     <!-- Botão adicionar -->
     <div class="row">
       <div class="col-sm-3">
-          <button id="btn-adicionar"
+          <button 
+          id="btn-adicionar"
           class="btn btn-primary btn-sm" 
           data-bs-toggle="modal"
           data-bs-target="#modal-cliente">
@@ -97,78 +98,6 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>Fulano da Silva</td>
-              <td>128.297.852-32</td>
-              <td>fulano@gmail.com</td>
-              <td>(21) 4002-8922</td>
-              <td></td>
-              <td>
-                <button class="btn btn-outline-primary btn-sm mr-2"> Editar</button>
-                <button class="btn btn-outline-primary btn-sm mr-3"> Excluir</button>
-              </td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>maria</td>
-              <td>923.459.193-24</td>
-              <td>fulano@gmail.com</td>
-              <td>(21) 4002-8922</td>
-              <td></td>
-              <td>
-                <button class="btn btn-outline-primary btn-sm mr-2"> Editar</button>
-                <button class="btn btn-outline-primary btn-sm mr-3"> Excluir</button>
-              </td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>maria</td>
-              <td>923.459.193-24</td>
-              <td>fulano@gmail.com</td>
-              <td>(21) 4002-8922</td>
-              <td></td>
-              <td>
-                <button class="btn btn-outline-primary btn-sm mr-2"> Editar</button>
-                <button class="btn btn-outline-primary btn-sm mr-3"> Excluir</button>
-              </td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>maria</td>
-              <td>923.459.193-24</td>
-              <td>fulano@gmail.com</td>
-              <td>(21) 4002-8922</td>
-              <td></td>
-              <td>
-                <button class="btn btn-outline-primary btn-sm mr-2"> Editar</button>
-                <button class="btn btn-outline-primary btn-sm mr-3"> Excluir</button>
-              </td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>maria</td>
-              <td>923.459.193-24</td>
-              <td>fulano@gmail.com</td>
-              <td>(21) 4002-8922</td>
-              <td></td>
-              <td>
-                <button class="btn btn-outline-primary btn-sm mr-2"> Editar</button>
-                <button class="btn btn-outline-primary btn-sm mr-3"> Excluir</button>
-              </td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>maria</td>
-              <td>923.459.193-24</td>
-              <td>fulano@gmail.com</td>
-              <td>(21) 4002-8922</td>
-              <td></td>
-              <td>
-                <button class="btn btn-outline-primary btn-sm mr-2"> Editar</button>
-                <button class="btn btn-outline-primary btn-sm mr-3"> Excluir</button>
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
@@ -218,6 +147,12 @@
                     <input type="text" class="form-control" id="CPF">
                     
                   </div>
+
+                  <div class="col-sm-9">
+                    <label for="Email" class="form-label">Email:</label>
+                    <input type="text" class="form-control" id="Email">
+                    
+                  </div>
                   
                   <div class="col-sm-5">
                     <label for="genero" class="form-label">Genero:</label>
@@ -231,12 +166,7 @@
                   </div>
 
                   </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <label for="observacao">Observação:</label>
-                      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-                    </div>
-                  </div>
+                
             </div>
 
             <!-- Modal footer -->
@@ -251,8 +181,8 @@
     </div>
 
   </div>
-
-  <script src="./js/clientes.js"></script>
+  <script src="./js/Model/Cliente.js"></script>
+  <script src="./js/controle-cliente.js"></script>
 </body>
 
 </html>

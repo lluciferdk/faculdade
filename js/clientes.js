@@ -1,1 +1,0 @@
-let tabelaCliente = document.querySelector('table>tbody');
